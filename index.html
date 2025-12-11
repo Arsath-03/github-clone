@@ -7,10 +7,10 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" crossorigin href="/github-clone/assets/index-DiFLFOim.css">
+    <link rel="stylesheet" crossorigin href="/github-clone/assets/index-rjixXBvo.css">
   </head>
   <body class="font-[Poppins] bg-gray-900">
-    <header class="bg-gray-950">
+    <header class="bg-gray-950 w-full">
       <div class="first-row flex justify-between items-center py-3">
         <div class="flex items-center space-x-3 pl-5">
           <div class="text-xl text-gray-500 border rounded"><i class="fa-solid fa-bars"></i></div>
@@ -18,7 +18,7 @@
           <div class="text-white"><span>anburocky3</span></div>
         </div>
         <div class="flex items-center space-x-5 pr-4">
-          <div class="border py-0.5 rounded text-gray-500"><i class="fa-solid fa-magnifying-glass text-gray-700"></i><input type="" placeholder="Type / to search" class="outline-none"></div>
+          <div class="border py-0.5 rounded text-gray-500 w-24 sm:w-48 md:w-64"><i class="fa-solid fa-magnifying-glass text-gray-700"></i><input type="" placeholder="Type / to search" class="outline-none"></div>
           <div class="border rounded text-xl text-gray-500"><i class="fa-brands fa-github-alt"></i><i class="fa-solid fa-caret-down"></i></div>
           <div class="border rounded text-xl text-gray-500"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-caret-down"></i></div>
           <div class="border rounded text-xl text-gray-500"><i class="fa-regular fa-circle-dot"></i></div>
@@ -27,7 +27,7 @@
           <div ><img src="/github-clone/assets/anbu-image-B_A8NvWu.webp" alt="" width="30" class="rounded-full"></div>
         </div>
       </div>
-      <div class="second-row flex space-x-5 pl-5 py-2">
+      <div class="second-row flex space-x-5 pl-5 py-2 overflow-x-auto whitespace-nowrap">
         <div class="space-x-1"><i class="fa-solid fa-book-open text-gray-500"></i><span class="text-white">Overview</span></div>
         <div class="space-x-1"><i class="fa-solid fa-book-bookmark text-gray-500"></i><span class="text-white">Repositories</span></div>
         <div class="space-x-1"><i class="fa-solid fa-table-cells-large text-gray-500"></i><span class="text-white">Projects</span></div>
@@ -37,12 +37,12 @@
     </header>
 
     <main>
-      <div class="main flex flex-row">
-        <div class="left-side flex flex-col space-y-4 w-[30%] bg-gray-900">
+      <div class="main flex flex-col md:flex-row gap-6">
+        <div class="left-side flex flex-col space-y-4 w-full md:w-[30%] bg-gray-900">
           <div class="flex flex-col items-center pt-8 ">
-            <div><img src="https://avatars.githubusercontent.com/u/15264938?v=4" alt="" width="270" class="rounded-full border border-gray-400"></div>
+            <div><img src="https://avatars.githubusercontent.com/u/15264938?v=4" class="rounded-full border border-gray-400 w-40 sm:w-52 md:w-64"></div>
           </div>
-          <div class="flex flex-col pl-3 space-y-3 text-sm border-b pb-4 mx-3 border-gray-500">
+          <div class="flex flex-col px-4 md:px-3 space-y-3 text-sm border-b pb-4 mx-3 border-gray-500">
             <div class="text-xl font-medium text-white"><span>Anbuselvan Annamalai</span></div>
             <div class="text-gray-500 text-xl" ><span>anburocky3 . he/him</span></div>
             <div class="flex flex-row space-x-2">
@@ -60,7 +60,7 @@
           </div>
           <div class="flex flex-col pl-3 mx-3 border-b border-gray-500 pb-4">
             <div class="font-medium text-white "><span>Achievements</span></div>
-            <div class="flex pt-2">
+            <div class="flex flex-wrap gap-2 pt-2">
               <div><img src="https://github.githubassets.com/assets/quickdraw-default--medium-0bdca502f5b4.png" alt="" width="70"></div>
               <div><img src="https://github.githubassets.com/assets/yolo-default-be0bbff04951.png" alt="" width="70"></div>
               <div><img src="https://github.githubassets.com/assets/pull-shark-default-498c279a747d.png" alt="" width="70"></div>
@@ -74,7 +74,7 @@
             <div><span class="text-gray-500">Block or Report</span></div>
           </div>
         </div>
-        <div class="right-side border-1 text-white border-gray-500 w-[80%] mr-14 mt-10 rounded p-5">
+        <div class="right-side text-white border border-gray-500 w-full md:w-[70%] mt-5 mr-10 md:mt-10 rounded p-5">
           <div>
             <div class="border-b border-gray-500 pb-2">
                 <div class="pb-4"><span class="text-xs">anburocky3/README.md</span></div>
