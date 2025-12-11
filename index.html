@@ -7,32 +7,37 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-    <link rel="stylesheet" crossorigin href="/github-clone/assets/index-rjixXBvo.css">
+    <link rel="stylesheet" crossorigin href="/github-clone/assets/index-DGt6Q6cj.css">
   </head>
   <body class="font-[Poppins] bg-gray-900">
-    <header class="bg-gray-950 w-full">
-      <div class="first-row flex justify-between items-center py-3">
-        <div class="flex items-center space-x-3 pl-5">
-          <div class="text-xl text-gray-500 border rounded"><i class="fa-solid fa-bars"></i></div>
+    <header class="bg-[#010409] w-full border-b border-gray-800">
+      <div class="first-row flex justify-between items-center py-3 px-4">
+        <div class="flex items-center space-x-3">
+          <div class="text-xl text-gray-400 border border-gray-700 rounded px-2 py-0.5 hover:text-white cursor-pointer transition-colors"><i class="fa-solid fa-bars"></i></div>
           <div class="text-3xl text-white"><i class="fa-brands fa-github"></i></div>
-          <div class="text-white"><span>anburocky3</span></div>
+          <div class="text-white font-semibold text-sm hidden sm:block"><span>anburocky3</span></div>
         </div>
-        <div class="flex items-center space-x-5 pr-4">
-          <div class="border py-0.5 rounded text-gray-500 w-24 sm:w-48 md:w-64"><i class="fa-solid fa-magnifying-glass text-gray-700"></i><input type="" placeholder="Type / to search" class="outline-none"></div>
-          <div class="border rounded text-xl text-gray-500"><i class="fa-brands fa-github-alt"></i><i class="fa-solid fa-caret-down"></i></div>
-          <div class="border rounded text-xl text-gray-500"><i class="fa-solid fa-plus"></i><i class="fa-solid fa-caret-down"></i></div>
-          <div class="border rounded text-xl text-gray-500"><i class="fa-regular fa-circle-dot"></i></div>
-          <div class="border rounded text-xl text-gray-500"><i class="fa-solid fa-code-pull-request"></i></div>
-          <div class="border rounded text-xl text-gray-500"><i class="fa-solid fa-inbox"></i></div>
-          <div ><img src="/github-clone/assets/anbu-image-B_A8NvWu.webp" alt="" width="30" class="rounded-full"></div>
+        <div class="flex items-center space-x-3">
+          <div class="hidden md:flex items-center border border-gray-700 bg-[#0d1117] py-1 px-2 rounded-md text-gray-400 w-64 focus-within:border-blue-500 focus-within:w-80 transition-all duration-300">
+            <i class="fa-solid fa-magnifying-glass text-gray-500 text-sm mr-2"></i>
+            <input type="text" placeholder="Type / to search" class="bg-transparent outline-none text-sm w-full text-white placeholder-gray-500">
+            <span class="border border-gray-600 rounded px-1.5 text-xs text-gray-500">/</span>
+          </div>
+          <div class="hidden md:flex space-x-3">
+             <div class="border border-gray-700 rounded-md px-2 py-0.5 text-gray-400 hover:bg-gray-800 cursor-pointer"><i class="fa-solid fa-plus"></i> <i class="fa-solid fa-caret-down text-xs ml-1"></i></div>
+             <div class="border border-gray-700 rounded-md px-2 py-0.5 text-gray-400 hover:bg-gray-800 cursor-pointer"><i class="fa-regular fa-circle-dot"></i></div>
+             <div class="border border-gray-700 rounded-md px-2 py-0.5 text-gray-400 hover:bg-gray-800 cursor-pointer"><i class="fa-solid fa-code-pull-request"></i></div>
+             <div class="border border-gray-700 rounded-md px-2 py-0.5 text-gray-400 hover:bg-gray-800 cursor-pointer"><i class="fa-solid fa-inbox"></i></div>
+          </div>
+          <div><img src="https://avatars.githubusercontent.com/u/15264938?v=4" alt="" width="32" height="32" class="rounded-full border border-gray-700 cursor-pointer"></div>
         </div>
       </div>
-      <div class="second-row flex space-x-5 pl-5 py-2 overflow-x-auto whitespace-nowrap">
-        <div class="space-x-1"><i class="fa-solid fa-book-open text-gray-500"></i><span class="text-white">Overview</span></div>
-        <div class="space-x-1"><i class="fa-solid fa-book-bookmark text-gray-500"></i><span class="text-white">Repositories</span></div>
-        <div class="space-x-1"><i class="fa-solid fa-table-cells-large text-gray-500"></i><span class="text-white">Projects</span></div>
-        <div class="space-x-1"><i class="fa-solid fa-cubes text-gray-500"></i><span class="text-white">Packages</span></div>
-        <div class="space-x-1"><i class="fa-regular fa-star text-gray-500"></i><span class="text-white">Stars</span></div>
+      <div class="second-row flex space-x-6 px-4 py-3 overflow-x-auto whitespace-nowrap bg-[#010409] text-sm">
+        <div class="space-x-1 border-b-2 border-orange-400"><i class="fa-solid fa-book-open text-gray-500"></i><span class="text-white">Overview</span></div>
+        <div class="space-x-1 border-b-2 border-transparent hover:border-gray-300  cursor-pointer pb-2"><i class="fa-solid fa-book-bookmark text-gray-500"></i><span class="text-white font-semibold">Repositories</span></div>
+        <div class="space-x-1 border-b-2 border-transparent hover:border-gray-300 cursor-pointer pb-2"><i class="fa-solid fa-table-cells-large text-gray-500"></i><span class="text-white">Projects</span></div>
+        <div class="space-x-1 border-b-2 border-transparent hover:border-gray-300 cursor-pointer pb-2"><i class="fa-solid fa-cubes text-gray-500"></i><span class="text-white">Packages</span></div>
+        <div class="space-x-1 border-b-2 border-transparent hover:border-gray-300 cursor-pointer pb-2"><i class="fa-regular fa-star text-gray-500"></i><span class="text-white">Stars</span></div>
       </div>
     </header>
 
